@@ -1,0 +1,74 @@
+/* 
+FONTS
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif; 
+
+COLORS
+Primary:#EC407A
+Secondary:#E0E0E0
+Tertiary:#37474F
+
+*/
+
+/* INITIALIZATION */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+    text-rendering: optimizeLegibility;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #212121;
+}
+
+/* INITIALIZATION */
+
+/* NAVIGATION BAR */
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: #37474F;
+    height: 120px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#brand {
+    margin-right: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+nav ul li a {
+    line-height: 120px;
+    margin: 0.5px;
+    text-decoration: none;
+    color: #FAFAFA;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #EC407A;
+    transition: color 0.3s ease;
+}
+
+/* NAVIGATION BAR */
+
+/* HEADER */
+
+/* HEADER */
